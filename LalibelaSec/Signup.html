@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <style>
+            label{
+                color: white;
+            }
+            input{
+                color: black;
+            }
+            .box form .inputBox input{
+                background: transparent;
+                position: absolute;
+                pointer-events: visible;
+                font-size: 1rem;
+            }
+            .box form{
+                position: absolute;
+                inset: 4px;
+                background:none;
+                padding: 80px 5px;
+                border-radius: 10px;
+                z-index: 19;
+                display: -ms-flexbox;
+               flex-direction: column;
+            }
+            span{
+                color: whitesmoke;
+                font-size: medium;
+            }
+            
+            .box{
+                position: relative;
+                width: 390px;
+                height: 410px;
+                background-image: url("siu.jpg");
+                border-radius: 8px;
+            }
+            h1{
+               color: black;
+
+            }
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'poppins' , sans-serif;
+
+            }
+            body {
+                background-image: url("3.jpeg") ;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                
+            }
+            a{
+                position: relative;
+            }
+            </style>
+            </head>
+            <body>
+ 
+ <div class="box">
+ <form>
+    <center><h1>Signup</h1></center>
+    <br><br>
+    <div class="inputbox">
+        <span>Email Adress</span>
+        <input type="email" placeholder="Email" >
+<i class="bx bx-user"></i>
+<br><br>
+    <div class="inputbox">
+        <span>Password :</span>
+        <input type="password" placeholder="password">
+        <i></i>
+        <br><br>
+        <div class="inputbox">
+            <span>Conf-Password</span>
+            <input type="password" placeholder="conf pass" >
+            <br><br>
+            <center>
+            <input type="submit" value="Signup" href="login.html">
+            </center>
+             <br><br>
+            <div class="links">
+            <a href="">Forgot password</a>
+                <br><br>
+                <input type="submit" value="Login" onclick="wel()"></a>
+<script>
+    function wel(){
+          < a href="welcome.html">;
+    }
+    </script>
+                <br><br>
+            <i></i>
+            <div class="bottom">
+                <div class="left">
+                <center>    <input type="checkbox"id="check" ></center>
+                   
+                <span><label for="check">Remember Me</label></span>
+            </div>
+            </form>   
+            </div>  
+</div>
+</body>
+</html>

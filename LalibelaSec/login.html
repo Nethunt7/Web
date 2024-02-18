@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <style>
+     label{
+                color: white;
+            }
+            input{
+                color: black;
+            }
+            .box form .inputBox input{
+                background: transparent;
+                position: absolute;
+                pointer-events: visible;
+                font-size: 1em;
+            }
+            .box form{
+                position: absolute;
+                inset: 4px;
+                background:none;
+                padding: 80px 5px;
+                border-radius: 10px;
+                z-index: 19;
+                display: -ms-flexbox;
+               flex-direction: column;
+            }
+            span{
+                color: whitesmoke;
+                font-size: medium;
+            }
+            
+            .box{
+                position: relative;
+                width: 390px;
+                height: 410px;
+                background-image: url("siu.jpg");
+                border-radius: 8px;
+            }
+            h1{
+               color: black;
+
+            }
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'poppins' , sans-serif;
+
+            }
+            body {
+                background-image: url("3.jpeg") ;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                
+            }
+            a{
+                position: relative;
+            }
+            </style>
+            </head>
+            <body>
+ 
+ <div class="box">
+ <form>
+    <center><h1>Login</h1></center>
+    <br><br>
+  
+        <span>Email Adress:</span>
+        <input type="email" placeholder="Email" >
+<i class="bx bx-user"></i>
+<br><br>
+
+        <span>Password:</span>
+        <input type="password" placeholder="password">
+        <i></i>
+            <br><br>
+            <center>
+            <input type="submit" value="login">
+            </center>
+              
+            </form>   
+            </div>  
+</div>
+</body>
+</html>
